@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div class="heart heart1">❤️</div>
+    <div class="heart heart2">💕</div>
+    <div class="heart heart3">💗</div>
+    <div class="heart heart4">💖</div>
+
+    <div class="card">
+
+        <div class="cake">🎂</div>
+
+        <h1>Happy 18th Birthday Shynecutiee!</h1>
+
+        <h2>To Shyne tigas ulo 💕</h2>
+
+        <!-- YOUR PICTURE -->
+        <img src="crush.jpg" alt="Birthday Picture" class="birthday-photo">
+
+        <p class="intro">
+            Wishing you a beautiful birthday filled with
+            happiness, laughter, and wonderful memories. ✨
+        </p>
+
+        <button onclick="showMessage()">
+            💌 Open My Message
+        </button>
+
+        <div id="message">
+            <p>
+                Happy Birthday shyne! 🎉
+                <br><br>
+                I hope your special day is as amazing
+                and wonderful as you are. 💗
+                <br><br>
+                May all your wishes come true,
+                and mag enjoy ka today is your special day kahit na bagong meet lang us I was happy na pinansin moko haha, I know this might feel cringe haha pero wala pa me mabigay na gift sayo eh ito nalang muna😁 .
+                ✨
+                <br><br>
+                Enjoy your day! 🎂💕
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+    <audio id="music" loop>
+    <source src="birthday.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="document.getElementById('music').play()">
+    🎵 Play Music
+</button>
+
+<button onclick="document.getElementById('music').pause()">
+    ⏸️ Pause Music
+</button>
+
+</body>
+</html>
